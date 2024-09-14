@@ -1,0 +1,110 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(248, 155, 220, 0.838);
+    width: ;
+    height: ;
+    margin: 0px;
+    font-size: 2vw;
+}
+
+#logo{
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    /*box-shadow: 8px 8px 10px 3px pink;*/
+    width: 16%;
+}
+
+ul{
+    margin: 0px;
+}
+
+body > header > nav >ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+#main_header{
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav_ul{
+    display: flex;
+}
+
+#nav_ul > li{
+    padding: 8px;
+    margin: 16px;
+}
+
+body > main > article > header{
+    background-color: rgba(250, 33, 228, 0.855);
+    color: white;
+}
+
+body > main article{
+    width: 80%;
+    margin: auto;
+}
+
+#content_main{
+    display: flex;
+    justify-content: space-around;
+}
+
+#content_main > div{
+    width: 70%;
+    font-size: 20px;
+}
+
+#content_main > aside{
+    font-size: 14px;
+    list-style: none;
+}
+
+
+p{
+    font-size: 14px;
+}
+
+form{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body > footer{
+    display: flex;
+    background-color: rgb(250, 33, 228);
+}
+
+img{
+    border-radius: 100%;
+}
+
+#footer_ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer_ul > div > li{
+    margin-left: 12px;
+}
+
+#footer_ul > div > li > a{
+    color: white;
+    text-decoration: none;
+}
